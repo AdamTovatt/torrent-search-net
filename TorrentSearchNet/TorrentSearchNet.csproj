@@ -10,6 +10,21 @@
     <Authors>TorrentSearchNet</Authors>
     <Description>A small library that helps with finding torrents for legal file sharing</Description>
     <Copyright>MIT</Copyright>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/AdamTovatt/torrent-search-net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AdamTovatt/torrent-search-net</RepositoryUrl>
+    <PackageTags>torrent; search; pirate; bay; pirate-bay; the; the-pirate-bay</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
