@@ -19,6 +19,15 @@ namespace TorrentSearchNet
         }
 
         /// <summary>
+        /// Adds a ITorrentApi to the list of torrent apis.
+        /// </summary>
+        /// <param name="api"></param>
+        public static void AddTorrentApi(ITorrentApi api)
+        {
+            _apiList.Add(api);
+        }
+
+        /// <summary>
         /// Searches all configured torrent APIs for torrents matching the given query and category.
         /// </summary>
         public static async Task<SearchResult> SearchAsync(string query, Category category = Category.Any)

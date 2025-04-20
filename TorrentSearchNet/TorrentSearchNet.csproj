@@ -5,6 +5,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>TorrentSearchNet</Title>
+    <Version>1.0.0</Version>
+    <Authors>TorrentSearchNet</Authors>
+    <Description>A small library that helps with finding torrents for legal file sharing</Description>
+    <Copyright>MIT</Copyright>
   </PropertyGroup>
 
 </Project>
