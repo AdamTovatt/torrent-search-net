@@ -1,0 +1,8 @@
+.vs
+TestResults
+TorrentSearch/bin/*
+TorrentSearch/obj/*
+TorrentSearchNet/bin/*
+TorrentSearchNet/obj/*
+TorrentSearchNetTests/bin/*
+TorrentSearchNetTests/obj/*
